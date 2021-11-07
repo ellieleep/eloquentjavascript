@@ -12,6 +12,7 @@ function reverseArrayInPlace(arr){
             arr[arr.length-1-x] = ele;
     }
 }
-let flipMe = [2, 3, 4, 5];
-reverseArrayInPlace(flipMe)
-console.log(flipMe);
+console.log(reverseArray(["A", "B", "C"]));
+let arrayValue = [1, 2, 3, 4, 5];
+reverseArrayInPlace(arrayValue);
+console.log(arrayValue);
